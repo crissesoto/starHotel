@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import RoomTypeTable from './RoomTypeTable';
 import { MDBRow, MDBCol, MDBView, MDBCard, MDBCardBody, MDBTable, MDBTableHead, MDBTableBody } from 'mdbreact';
 
@@ -17,7 +17,7 @@ const RoomTypeList =  ({roomTypes}) =>{
     });
 
     return(
-        <fragment>
+        <Fragment>
         <MDBRow>
         <MDBCol md="12">
           <MDBCard className="mt-1 mb-4">
@@ -43,7 +43,7 @@ const RoomTypeList =  ({roomTypes}) =>{
           </MDBCard>
         </MDBCol>
       </MDBRow>
-      </fragment>
+      </Fragment>
     )
 }
 
