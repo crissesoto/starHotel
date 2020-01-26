@@ -1,12 +1,12 @@
 import React from 'react';
 import { MDBCard, MDBCardBody, MDBIcon, MDBBreadcrumb, MDBBreadcrumbItem, MDBFormInline, MDBBtn } from 'mdbreact';
 
-const BreadcrumSection = ({onChange}) => {
+const BreadcrumSection = ({onChange, title}) => {
   return (
     <MDBCard className="mb-3 mt-5 ">
         <MDBCardBody id="breadcrumb" className="d-flex align-items-center justify-content-between">
             <MDBBreadcrumb>
-                <MDBBreadcrumbItem>Overview</MDBBreadcrumbItem>
+                <MDBBreadcrumbItem>{`${title}`}</MDBBreadcrumbItem>
             </MDBBreadcrumb>
             <MDBFormInline className="md-form m-0">
                 <input 

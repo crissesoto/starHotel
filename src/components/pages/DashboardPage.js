@@ -12,7 +12,8 @@ class DashboardPage extends Component {
     this.state = {
       roomTypes: roomTypes,
       searchField: '',
-
+      typesTitle: 'Overview Room Types',
+      roomsTitle: 'Overview Rooms'
     }
   }
 
@@ -20,23 +21,23 @@ class DashboardPage extends Component {
   searchOnChange = (event) =>{
     // set state of the search field
     this.setState({searchField: event.target.value});
-    
-    // filter trough the room types array
-    const filteredRoomtypes = this.state.roomTypes.filter(type =>{
-      return type.roomType.toLowerCase().includes(this.state.searchField.toLowerCase());
-    });
-    console.log(filteredRoomtypes);
   }
 
   render(){
+    // filter through the roomTypes array <RoomTypeList>
+    const filteredRoomtypes = this.state.roomTypes.filter(type =>{
+      return type.roomType.toLowerCase().includes(this.state.searchField.toLowerCase());
+    });
+
+    // filter through the rooms array <RoomTable/>
+
     return (
       <React.Fragment>
-        <BreadcrumSection />
         <AdminCardSection1 />
-        <BreadcrumSection onChange={this.searchOnChange} />
-        <RoomTypeList roomTypes={roomTypes}/>
-        <BreadcrumSection />
-        <RoomTable/>
+        <BreadcrumSection onChange={this.searchOnChange} title={this.state.typesTitle}/>
+        <RoomTypeList roomTypes={filteredRoomtypes}/>
+        <BreadcrumSection title={this.state.roomsTitle}  />
+        <RoomTable/> 
         <AdminCardSection2 />
       </React.Fragment>
     )

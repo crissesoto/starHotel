@@ -14,7 +14,7 @@ const RoomTable =  () => {
             <h3 className="mt-5 text-left"><strong>MDBTable head options</strong></h3>
             <p>To change a background-color of thead (or any other element) use our color classes. If you are going to use a dark background you should also consider white text (to provide a proper contrast) by adding .text-white class.</p>
             <MDBTable>
-              <MDBTableHead color="primary-color" textWhite>
+              <MDBTableHead color="stylish-color" textWhite>
                 <tr>
                   <th>#</th>
                   <th>First</th>
