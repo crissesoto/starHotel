@@ -3,7 +3,7 @@ import { MDBCard, MDBCardBody, MDBIcon, MDBRow, MDBCol } from 'mdbreact';
 
 const AdminCardSection2 = () => {
   return (
-    <MDBRow className="mb-4 mt-4">
+    <MDBRow className="m-4">
         <MDBCol xl="3" md="6" className="mb-3">
           <MDBCard color="primary-color" className="classic-admin-card">
             <MDBCardBody>

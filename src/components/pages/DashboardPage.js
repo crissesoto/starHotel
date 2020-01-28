@@ -2,8 +2,11 @@ import React, {Component} from 'react';
 import AdminCardSection1 from './sections/AdminCardSection1';
 import AdminCardSection2 from './sections/AdminCardSection2';
 import RoomTypeList from './sections/RoomTypesList';
-import RoomTable from './sections/RoomTable';
+import RoomsLayout from './sections/RoomsLayout';
 import BreadcrumSection from './sections/BreadcrumSection';
+import TopNavigation from '../topNavigation';
+import SideNavigation from '../sideNavigation';
+import Footer from '../Footer';
 import {roomTypes} from '../../roomtypes';
 
 class DashboardPage extends Component {
@@ -30,15 +33,21 @@ class DashboardPage extends Component {
     });
 
     // filter through the rooms array <RoomTable/>
-
     return (
       <React.Fragment>
-        <AdminCardSection1 />
-        <BreadcrumSection onChange={this.searchOnChange} title={this.state.typesTitle}/>
-        <RoomTypeList roomTypes={filteredRoomtypes}/>
-        <BreadcrumSection title={this.state.roomsTitle}  />
-        <RoomTable/> 
-        <AdminCardSection2 />
+        <div className="flexible-content">
+        <main id="content">
+          <TopNavigation />
+          <SideNavigation />
+          <AdminCardSection1 />
+          <BreadcrumSection onChange={this.searchOnChange} title={this.state.typesTitle}/>
+          <RoomTypeList roomTypes={filteredRoomtypes}/>
+          <BreadcrumSection title={this.state.roomsTitle}  />
+          <RoomsLayout/> 
+          <AdminCardSection2 />
+          <Footer />
+        </main>
+        </div>
       </React.Fragment>
     )
   }

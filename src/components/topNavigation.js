@@ -1,43 +1,19 @@
 import React, { Component } from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBIcon } from 'mdbreact';
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBIcon } from 'mdbreact';
 
 class TopNavigation extends Component {
-    state = {
-        collapse: false
-    }
-
-    onClick = () => {
-        this.setState({
-            collapse: !this.state.collapse,
-        });
-    }
-
-    toggle = () => {
-        this.setState({
-            dropdownOpen: !this.state.dropdownOpen
-        });
-    }
 
     render() {
         return (
             <MDBNavbar className="flexible-navbar" light expand="md" scrolling>
-                <MDBNavbarBrand href="/">
-                    <strong>Housekeeping Magement System</strong>
+                <MDBNavbarBrand>
+                    <strong className="font-weight-bold dashHeader" style={{color: '#2E2E2E', fontSize: '2rem' }}>Housekeeping Magement System</strong>
                 </MDBNavbarBrand>
-                <MDBNavbarToggler onClick = { this.onClick } />
-                <MDBCollapse isOpen = { this.state.collapse } navbar>
                 <MDBNavbarNav right>
                     <MDBNavItem className="pr-3">
-                        <a href="https://www.stardekk.com/nl/" target="_blank" rel="noopener noreferrer"><MDBIcon icon="home" /></a>
-                    </MDBNavItem>
-                    <MDBNavItem className="pr-3">
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><MDBIcon fab icon="facebook-f" /></a>
-                    </MDBNavItem>
-                    <MDBNavItem className="pr-3">
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><MDBIcon fab icon="instagram" /></a>
+                        <a href="/" rel="noopener noreferrer" className="font-weight-bold logo-out"><MDBIcon icon="sign-out-alt" />Logout</a>
                     </MDBNavItem>
                   </MDBNavbarNav>
-                </MDBCollapse>
             </MDBNavbar>
         );
     }

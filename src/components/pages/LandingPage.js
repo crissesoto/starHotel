@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 import HeroSection from './sections/HeroSection';
 
 
-const LandingPage =  () => {
+class LandingPage extends Component {
+  render(){
     return (
       <React.Fragment>
         <HeroSection />
       </React.Fragment>
     )
+    }
   }
   
   export default LandingPage;

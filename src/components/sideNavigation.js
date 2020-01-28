@@ -6,11 +6,11 @@ import { NavLink } from 'react-router-dom';
 const TopNavigation = () => {
     return (
         <div className="sidebar-fixed position-fixed">
-            <MDBNavbarBrand className="mb-3 mt-3">
-                <strong className="dark-text">StarHotel</strong>
+            <MDBNavbarBrand href="/" className="mb-3 mt-3">
+                <strong className="orange-text font-weight-bold">StarHotel</strong>
             </MDBNavbarBrand>
             <MDBListGroup className="list-group-flush">
-                <NavLink exact={true} to="/" activeClassName="activeClass">
+                <NavLink exact={true} to="/dashboard" activeClassName="activeClass" className="warning-color-dark">
                     <MDBListGroupItem>
                         <MDBIcon icon="chart-pie" className="mr-3"/>
                         Overview
