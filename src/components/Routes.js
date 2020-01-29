@@ -4,8 +4,8 @@ import LandingPage from './pages/LandingPage';
 import DashboardPage from './pages/DashboardPage';
 import ProfilePage from './pages/ProfilePage';
 import RoomTypesPage from './pages/RoomTypesPage';
+import AddRoomTypesPage from './pages/AddRoomType';
 import RoomPage from './pages/RoomPage';
-import NotFoundPage from './pages/NotFoundPage';
 
 class Routes extends React.Component {
   render() {
@@ -15,8 +15,8 @@ class Routes extends React.Component {
         <Route path='/dashboard' exact component={DashboardPage} />
         <Route path='/profile' component={ProfilePage} />
         <Route path='/roomTypes' component={RoomTypesPage} />
+        <Route path='/addroomtype' component={AddRoomTypesPage} />
         <Route path='/rooms' component={RoomPage} />
-        <Route path='/404' component={NotFoundPage} />
       </Switch>
     );
   }

@@ -1,10 +1,10 @@
 import React from "react";
 import Card from "./Card";
 
-const RoomsLayout = () => {
+const RoomsOverview = () => {
   return (
       <Card />
   );
 }
 
-export default RoomsLayout;
+export default RoomsOverview;

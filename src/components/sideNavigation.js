@@ -7,7 +7,7 @@ const TopNavigation = () => {
     return (
         <div className="sidebar-fixed position-fixed">
             <MDBNavbarBrand href="/" className="mb-3 mt-3">
-                <strong className="orange-text font-weight-bold">StarHotel</strong>
+                <strong className="orange-text font-weight-bold">STARHOTEL</strong>
             </MDBNavbarBrand>
             <MDBListGroup className="list-group-flush">
                 <NavLink exact={true} to="/dashboard" activeClassName="activeClass" className="warning-color-dark">
@@ -32,12 +32,6 @@ const TopNavigation = () => {
                     <MDBListGroupItem>
                         <MDBIcon icon="bed" className="mr-3"/>
                         Rooms
-                    </MDBListGroupItem>
-                </NavLink>
-                <NavLink to="/404" activeClassName="activeClass">
-                    <MDBListGroupItem>
-                        <MDBIcon icon="exclamation" className="mr-3"/>
-                        404
                     </MDBListGroupItem>
                 </NavLink>
             </MDBListGroup>

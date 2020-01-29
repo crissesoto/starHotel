@@ -31,7 +31,7 @@ class HeroSection extends Component {
             <MDBNavbar dark expand="md" fixed="top">
               <MDBContainer>
                 <MDBNavbarBrand>
-                  <strong className="orange-text">StarHotel</strong>
+                  <strong className="orange-text">STARHOTEL</strong>
                 </MDBNavbarBrand>
                 <MDBNavbarToggler
                   onClick={this.toggleCollapse("navbarCollapse")}

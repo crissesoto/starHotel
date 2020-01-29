@@ -27,11 +27,11 @@ const AdminCardSection1 = () => {
         <MDBCol xl="3" md="6" className="mb-r">
           <MDBCard className="cascading-admin-card">
               <div className="admin-up">
-              <MDBIcon icon="chart-line" className="warning-color"/>
+              <MDBIcon icon="ban" className="unique-color"/>
                 <div className="data">
-                  <p>SUBSCRIPTIONS</p>
+                  <p>CANCELLATIONS</p>
                   <h4>
-                    <strong>200</strong>
+                    <strong>30</strong>
                   </h4>
                 </div>
               </div>
@@ -47,9 +47,9 @@ const AdminCardSection1 = () => {
         <MDBCol xl="3" md="6" className="mb-r">
           <MDBCard className="cascading-admin-card">
               <div className="admin-up">
-              <MDBIcon icon="chart-pie" className="light-blue lighten-1"/>
+              <MDBIcon icon="book-open" className="primary-color-dark"/>
                 <div className="data">
-                  <p>TRAFFIC</p>
+                  <p>BOOKINGS</p>
                   <h4>
                     <strong>20000</strong>
                   </h4>
@@ -67,11 +67,11 @@ const AdminCardSection1 = () => {
         <MDBCol xl="3" md="6" className="mb-r">
           <MDBCard className="cascading-admin-card">
               <div className="admin-up">
-              <MDBIcon icon="chart-bar" className="red accent-2"/>
+              <MDBIcon icon="bed" className="unique-color"/>
                 <div className="data">
-                  <p>ORGANIC TRAFFIC</p>
+                  <p>OPEN ROOMS</p>
                   <h4>
-                    <strong>2000</strong>
+                    <strong>15</strong>
                   </h4>
                 </div>
               </div>

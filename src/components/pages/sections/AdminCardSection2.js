@@ -5,70 +5,58 @@ const AdminCardSection2 = () => {
   return (
     <MDBRow className="m-4">
         <MDBCol xl="3" md="6" className="mb-3">
-          <MDBCard color="primary-color" className="classic-admin-card">
+          <MDBCard color="success-color" className="classic-admin-card">
             <MDBCardBody>
               <div className="float-right">
-              <MDBIcon far icon="money-bill-alt"/>
+              <MDBIcon icon="gift"/>
               </div>
-              <p className="white-text">SALES</p>
-              <h4><strong>$2000</strong></h4>
+              <p className="white-text">Birthday</p>
+              <h4><strong>10/02/2020</strong></h4>
             </MDBCardBody>
-            <div className="progress">
-              <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" className="progress-bar bg grey darken-3" role="progressbar" style={{width: "25%"}}></div>
-            </div>
             <MDBCardBody>
-              <p>Better than last week (25%)</p>
+              <p>Room 1</p>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
         <MDBCol xl="3" md="6" className="mb-3">
-          <MDBCard color="warning-color" className="classic-admin-card">
+          <MDBCard color="default-color" className="classic-admin-card">
             <MDBCardBody>
               <div className="float-right">
-              <MDBIcon icon="chart-line"/>
+              <MDBIcon icon="birthday-cake"/>
               </div>
-              <p className="white-text">SUBSCRIPTIONS</p>
-              <h4><strong>200</strong></h4>
+              <p className="white-text">WEDDING</p>
+              <h4><strong>30/03/2020</strong></h4>
             </MDBCardBody>
-            <div className="progress">
-              <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" className="progress-bar bg grey darken-3" role="progressbar" style={{width: "25%"}}></div>
-            </div>
             <MDBCardBody>
-              <p>Worse than last week (25%)</p>
+              <p>ROOM 5</p>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
         <MDBCol xl="3" md="6" className="mb-3">
-          <MDBCard color="primary-color" className="classic-admin-card">
+          <MDBCard color="success-color-dark" className="classic-admin-card">
             <MDBCardBody>
               <div className="float-right">
-              <MDBIcon icon="chart-pie"/>
+              <MDBIcon icon="briefcase"/>
               </div>
-              <p className="white-text">TRAFFIC</p>
-              <h4><strong>20000</strong></h4>
+              <p className="white-text">CONFERENCE</p>
+              <h4><strong>08/04/2010</strong></h4>
             </MDBCardBody>
-            <div className="progress">
-              <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="75" className="progress-bar bg grey darken-3" role="progressbar" style={{width: "75%"}}></div>
-            </div>
             <MDBCardBody>
-              <p>Better than last week (75%)</p>
+              <p>ROOM 4</p>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
         <MDBCol xl="3" md="6" className="mb-3">
-          <MDBCard color="red accent-2" className="classic-admin-card">
+          <MDBCard color="default-color-dark" className="classic-admin-card">
             <MDBCardBody>
               <div className="float-right">
-              <MDBIcon icon="chart-bar"/>
+              <MDBIcon icon="camera"/>
               </div>
-              <p className="white-text">ORGANIC TRAFFIC</p>
-              <h4><strong>2000</strong></h4>
+              <p className="white-text">PHOTOSHOOT</p>
+              <h4><strong>07/06/2020</strong></h4>
             </MDBCardBody>
-            <div className="progress">
-              <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" className="progress-bar bg grey darken-3" role="progressbar" style={{width: "25%"}}></div>
-            </div>
             <MDBCardBody>
-              <p>Better than last week (75%)</p>
+              <p>ROOM 1</p>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>

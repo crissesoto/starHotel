@@ -11,7 +11,7 @@ class TopNavigation extends Component {
                 </MDBNavbarBrand>
                 <MDBNavbarNav right>
                     <MDBNavItem className="pr-3">
-                        <a href="/" rel="noopener noreferrer" className="font-weight-bold logo-out"><MDBIcon icon="sign-out-alt" />Logout</a>
+                        <a href="/" rel="noopener noreferrer" className="logo-out"><MDBIcon icon="sign-out-alt" />Logout</a>
                     </MDBNavItem>
                   </MDBNavbarNav>
             </MDBNavbar>

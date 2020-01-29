@@ -1,7 +1,7 @@
 import React from 'react';
-import { MDBCard, MDBCardBody, MDBBreadcrumb, MDBBreadcrumbItem} from 'mdbreact';
+import { MDBCard, MDBCardBody, MDBBreadcrumb, MDBBreadcrumbItem } from 'mdbreact';
 
-const BreadcrumSection = ({onChange, title}) => {
+const HorizontalRule = ({onChange, title}) => {
   return (
     <MDBCard className="mb-3 mt-5 ">
         <MDBCardBody id="breadcrumb" className="d-flex align-items-center justify-content-between">
@@ -13,5 +13,5 @@ const BreadcrumSection = ({onChange, title}) => {
   )
 }
 
-export default BreadcrumSection;
+export default HorizontalRule;
 
