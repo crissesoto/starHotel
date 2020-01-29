@@ -1,10 +1,12 @@
 {
   "name": "starhotel",
+  "homepage": "https://crissesoto.github.io/starHotel",
   "version": "1.0.0",
   "description": "React Admin Dashboard",
   "author": "crisse soto",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "google-map-react": "^1.0.6",
     "mdbreact": "^4.9.0",
     "react": "^16.7.0",
@@ -16,6 +18,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
