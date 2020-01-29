@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/starHotel/static/css/main.502b120c.chunk.css",
+    "main.js": "/starHotel/static/js/main.f699f164.chunk.js",
+    "main.js.map": "/starHotel/static/js/main.f699f164.chunk.js.map",
+    "runtime-main.js": "/starHotel/static/js/runtime-main.a2921095.js",
+    "runtime-main.js.map": "/starHotel/static/js/runtime-main.a2921095.js.map",
+    "static/css/2.11698ad8.chunk.css": "/starHotel/static/css/2.11698ad8.chunk.css",
+    "static/js/2.e998b1cb.chunk.js": "/starHotel/static/js/2.e998b1cb.chunk.js",
+    "static/js/2.e998b1cb.chunk.js.map": "/starHotel/static/js/2.e998b1cb.chunk.js.map",
+    "index.html": "/starHotel/index.html",
+    "precache-manifest.fcac4496201d76f1f692c1f40575bb2b.js": "/starHotel/precache-manifest.fcac4496201d76f1f692c1f40575bb2b.js",
+    "service-worker.js": "/starHotel/service-worker.js",
+    "static/css/2.11698ad8.chunk.css.map": "/starHotel/static/css/2.11698ad8.chunk.css.map",
+    "static/css/main.502b120c.chunk.css.map": "/starHotel/static/css/main.502b120c.chunk.css.map",
+    "static/js/2.e998b1cb.chunk.js.LICENSE": "/starHotel/static/js/2.e998b1cb.chunk.js.LICENSE",
+    "static/media/mdb.css": "/starHotel/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/starHotel/static/media/fa-solid-900.f6121be5.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2921095.js",
+    "static/css/2.11698ad8.chunk.css",
+    "static/js/2.e998b1cb.chunk.js",
+    "static/css/main.502b120c.chunk.css",
+    "static/js/main.f699f164.chunk.js"
+  ]
+}
