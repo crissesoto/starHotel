@@ -1,6 +1,5 @@
-# mdbreact-admin-template-free
+# Starhotel housekeeping Management Projecrt
 
-> MDB - React Admin Dashboard Free
 
 ## Build Setup
 
